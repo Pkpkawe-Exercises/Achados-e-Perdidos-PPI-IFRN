@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/Achados-e-Perdidos-PPI-IFRN"
 })
