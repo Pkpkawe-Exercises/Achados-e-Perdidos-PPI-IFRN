@@ -10,10 +10,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/itens/:id" element={<DetailItem />} />
-        <Route path="/itens/new" element={<NewItem />} />
-        <Route path="/itens/:id/edit" element={<EditItem />} />
+        <Route path="/Achados-e-Perdidos-PPI-IFRN/" element={<Home />} />
+        <Route path="/Achados-e-Perdidos-PPI-IFRN/itens/:id" element={<DetailItem />} />
+        <Route path="/Achados-e-Perdidos-PPI-IFRN/itens/new" element={<NewItem />} />
+        <Route path="/Achados-e-Perdidos-PPI-IFRN/itens/:id/edit" element={<EditItem />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

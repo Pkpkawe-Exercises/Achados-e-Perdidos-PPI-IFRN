@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 export default function SystemBrand() {
   return (
     <Link
-      to="/"
+      to="/Achados-e-Perdidos-PPI-IFRN"
       aria-label="Achados e Perdidos do IFRN — Página inicial"
       className="group flex min-w-0 items-center gap-3 rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-green-700 focus-visible:ring-offset-4"
     >
       <div className="flex size-12 shrink-0 items-center justify-center rounded-xl border border-green-100 bg-linear-to-br from-green-50 to-white p-1.5 shadow-sm transition-all duration-300 group-hover:border-green-200 group-hover:shadow-md">
         <img
-          src="/Logo.png"
+          src="/Achados-e-Perdidos-PPI-IFRN/Logo.png"
           alt=""
           className="size-full object-contain transition-transform duration-300 group-hover:scale-105"
         />

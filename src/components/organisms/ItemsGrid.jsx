@@ -57,7 +57,7 @@ export default function ItemsGrid({ items, loading, error, onRetry }) {
         </p>
 
         <Link
-          to="/itens/new"
+          to="/Achados-e-Perdidos-PPI-IFRN/itens/new"
           className="mt-5 inline-flex items-center gap-2 rounded-xl border border-green-200 px-4 py-2.5 text-sm font-semibold text-green-800 transition hover:bg-green-50"
         >
           <Plus className="size-4" />

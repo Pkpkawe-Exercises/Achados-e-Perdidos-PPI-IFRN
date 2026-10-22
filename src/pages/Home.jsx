@@ -107,7 +107,7 @@ export default function Home() {
                     </div>
 
                     <Link
-                        to="/itens/new"
+                        to="/Achados-e-Perdidos-PPI-IFRN/itens/new"
                         className="inline-flex items-center justify-center gap-2 rounded-xl bg-green-800 px-4 py-3 text-sm font-semibold text-white transition hover:bg-green-900"
                     >
                         <Plus className="size-4" />
