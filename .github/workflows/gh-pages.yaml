@@ -31,7 +31,7 @@ jobs:
         working-directory: .
         run: npm run build
         env:
-          VITE_API_URL: ${{ secrets.MY_API_URL }}
+          VITE_API_URL: ${{ secrets.API_KEY }}
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
