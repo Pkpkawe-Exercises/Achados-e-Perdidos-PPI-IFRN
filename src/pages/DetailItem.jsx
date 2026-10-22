@@ -93,7 +93,7 @@ export default function DetailItem() {
 
                     <button
                         onClick={loadItem}
-                        className="mt-5 rounded-xl bg-green-800 px-5 py-3 text-sm font-semibold text-white hover:bg-green-900"
+                        className="mt-5 rounded-xl bg-green-800 px-5 py-3 text-sm font-semibold text-white hover:bg-green-900 cursor-pointer"
                     >
                         Tentar novamente
                     </button>
