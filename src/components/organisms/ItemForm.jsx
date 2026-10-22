@@ -216,7 +216,7 @@ export default function ItemForm({
 
       <div className="flex flex-col-reverse gap-3 border-t border-gray-100 pt-5 sm:flex-row sm:justify-between">
         <Link
-          to="/Achados-e-Perdidos-PPI-IFRN/"
+          to="/Achados-e-Perdidos-PPI-IFRN"
           className="inline-flex items-center justify-center gap-2 rounded-xl border border-gray-200 px-5 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-50"
         >
           <ArrowLeft className="size-4" />
